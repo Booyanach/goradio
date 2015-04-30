@@ -54,6 +54,9 @@ app.route('/users')
 app.route('/user/:user_id')
     .get(auth.isAuthenticated, user.get);
 
+app.route('/success')
+    .get(user.success);
+
 app.route('/error')
     .get(error.message);
 

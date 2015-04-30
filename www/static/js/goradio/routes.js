@@ -1,17 +1,22 @@
 (function () {
-    goradio.app.config(function ($stateProvider) {
+    goradio.app.config(function ($stateProvider, $locationProvider) {
         $stateProvider
-            .state('welcome', {
+            .state('dashboard', {
                 url: '/dashboard',
-                data: {
-                    requireLogin: true
-                }
+                templateUrl: 'views/dashboard.html',
+                controller: 'DashboardController',
+                controllerAs: 'dashboard'
             })
-            .state('login', {
+            .state('index', {
                 url: '/',
-                data: {
-                    requireLogin: false
-                }
+                templateUrl: 'views/login.html',
+                controller: 'LoginController',
+                controllerAs: 'login'
             })
+
+        $locationProvider.html5Mode({
+            enabled: true,
+            requireBase: false
+        });
     });
 })();

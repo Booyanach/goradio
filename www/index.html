@@ -10,22 +10,12 @@
         </script>
     </head>
     <body ng-app="goradio">
-        <div class="login-holder" ng-controller="loginController as login">
-            <label>
-                Username:
-                <input type="text" name="username" id="username" ng-model="login.username"/>
-            </label>
-            <label>
-                Password:
-                <input type="password" name="password" id="password" ng-model="login.password"/>
-            </label>
-            <label>
-                <input type="button" value="login" ng-click="login.doLogin()"/>
-            </label>
-        </div>
+        <ui-view>
+        </ui-view>
         <script src="static/js/goradio/app.js"></script>
         <script src="static/js/goradio/routes.js"></script>
-        <script src="static/js/goradio/login/loginService.js"></script>
-        <script src="static/js/goradio/login/loginController.js"></script>
+        <script src="static/js/goradio/login/LoginService.js"></script>
+        <script src="static/js/goradio/login/LoginController.js"></script>
+        <script src="static/js/goradio/dashboard/DashboardController.js"></script>
     </body>
 </html>

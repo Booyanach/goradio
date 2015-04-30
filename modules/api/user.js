@@ -25,7 +25,17 @@ exports.list = function (req, res) {
 
 exports.get = function (req, res) {
     User.findById(req.params.user_id, function (err, user) {
-      if (err) res.json(handler.onerror('failed to find user!', err));
-      res.json(handler.onreturn(user));
+        if (err) res.json(handler.onerror('failed to find user!', err));
+        res.json(handler.onreturn(user));
+    });
+};
+
+exports.success = function (req, res) {
+    User.find({name: req.params.name}, function (err, user) {
+        if (err) res.json(handler.onerror('failed to find user!', err));
+        var newUser = user;
+        console.log(user);
+        //delete newUser.password;
+        res.json(handler.onreturn(user));
     });
 };

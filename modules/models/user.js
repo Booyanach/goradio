@@ -7,7 +7,8 @@ var mongoose = require('mongoose'),
     },
     password: {
         type: String,
-        required: true
+        required: true,
+        select: false
     },
     bio: {
         type: String,

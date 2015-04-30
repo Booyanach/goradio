@@ -4,7 +4,7 @@ var passport = require('passport'),
 
 passport.use(new BasicStrategy(
   function(username, password, callback) {
-    User.findOne({ name: username }, function (err, user) {
+    User.findOne({ name: username }, '+password', function (err, user) {
       if (err) return callback(err);
 
       // No user found with that username
@@ -18,6 +18,7 @@ passport.use(new BasicStrategy(
         if (!isMatch) return callback(null, false);
 
         // Success
+          loggedUser = user;
         return callback(null, user);
       });
     });
@@ -25,8 +26,10 @@ passport.use(new BasicStrategy(
 ));
 
 exports.isAuthenticated = passport.authenticate('basic', { session: false });
-exports.login = passport.authenticate('basic', {
-    session: false,
-    successRedirect: '/dashboard.html',
-    failureRedirect: '/error'
-});
+exports.login = function (req, res, next) {
+    passport.authenticate('basic', function (err, user) {
+        User.findById(user._id, function (err, user) {
+            res.json(user);
+        });
+    })(req, res, next);
+};
