@@ -13,6 +13,12 @@
                 controller: 'LoginController',
                 controllerAs: 'login'
             })
+            .state('register', {
+               url: '/register',
+                templateUrl: 'views/register.html',
+                controller: 'RegisterController',
+                controllerAs: 'register'
+            });
 
         $locationProvider.html5Mode({
             enabled: true,
