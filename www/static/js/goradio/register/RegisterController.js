@@ -7,12 +7,17 @@
                     username: register.username,
                     password: register.password,
                     bio: register.bio
-                }).then(function () {
+                }).then(function (response) {
+                    console.log(response);
                     $location.path('/dashboard');
                 });
             } else {
                 console.log('ERROR Creating user.');
             }
+        };
+
+        register.goLogin = function ()  {
+            $location.path('/login');
         };
 
         $scope.$watch(UserService.getUser, function (newData) {

@@ -12,6 +12,10 @@
             }
         };
 
+        login.goRegister = function ()  {
+            $location.path('/register');
+        };
+
         $scope.$watch(UserService.getUser, function (newData) {
            if (newData) {
                $location.path('/dashboard');

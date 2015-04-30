@@ -21,9 +21,7 @@
         };
 
         UserService.register = function (data) {
-            return call('/users').post(data).$promise.then(function (response) {
-                UserService.user = response;
-            });
+            return call('/users').post(data).$promise;
         };
 
         UserService.isAuthenticated = function () {

@@ -9,10 +9,6 @@ var mongoose = require('mongoose'),
         type: String,
         required: true,
         select: false
-    },
-    bio: {
-        type: String,
-        default: ""
     }
 });
 
