@@ -50,11 +50,11 @@ body {
 #wrapper {
   padding-left: 70px;
   transition: all 0.4s ease 0s;
-  height: 100%;
-  margin-top: 51px; }
+  box-sizing: border-box; }
 
 #sidebar-wrapper {
   margin-left: -150px;
+  margin-top: -19px;
   left: 70px;
   width: 150px;
   background: #222;
@@ -162,7 +162,8 @@ body {
     transition: all 0.4s ease 0s; }
 
   #sidebar-wrapper {
-    left: 70px; }
+    left: 70px;
+    margin-top: -13px; }
 
   #wrapper.active {
     padding-left: 150px; }

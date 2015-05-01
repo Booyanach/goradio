@@ -20,11 +20,6 @@
             UserService.logout();
             $location.path('/');
         };
-
-        nav.toggleSidebar = function () {
-            nav.open = !nav.open;
-            console.log(nav.open);
-        };
     }
     goradio.app.controller('NavController', NavController);
 })();

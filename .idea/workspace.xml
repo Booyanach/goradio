@@ -2,51 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8809d22-661f-4f25-a7a2-e1dfd1052ab4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/static/js/goradio/shared/NavController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/static/js/goradio/start/StartController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/accordion/accordion-group.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/accordion/accordion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/alert/alert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/modal/backdrop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/progressbar/bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/carousel/carousel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/datepicker/datepicker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/datepicker/day.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/datepicker/month.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/pagination/pager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/pagination/pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/popover/popover-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/popover/popover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/datepicker/popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/progressbar/progress.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/progressbar/progressbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/rating/rating.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/carousel/slide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/views/start.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/tabs/tab.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/tabs/tabset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/timepicker/timepicker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/tooltip/tooltip-html-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/tooltip/tooltip-html-unsafe-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/tooltip/tooltip-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/tooltip/tooltip-template-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/typeahead/typeahead-match.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/typeahead/typeahead-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/modal/window.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/template/datepicker/year.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/js/goradio/login/LoginController.js" afterPath="$PROJECT_DIR$/www/static/js/goradio/login/LoginController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/js/goradio/register/RegisterController.js" afterPath="$PROJECT_DIR$/www/static/js/goradio/register/RegisterController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/js/goradio/shared/UserService.js" afterPath="$PROJECT_DIR$/www/static/js/goradio/shared/UserService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/js/goradio/app.js" afterPath="$PROJECT_DIR$/www/static/js/goradio/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/dashboard.html" afterPath="$PROJECT_DIR$/www/views/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/js/goradio/shared/NavController.js" afterPath="$PROJECT_DIR$/www/static/js/goradio/shared/NavController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/css/goradio.css.map" afterPath="$PROJECT_DIR$/www/static/css/goradio.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/css/goradio.css" afterPath="$PROJECT_DIR$/www/static/css/goradio.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/goradio.sass" afterPath="$PROJECT_DIR$/sass/goradio.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/login.html" afterPath="$PROJECT_DIR$/www/views/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/register.html" afterPath="$PROJECT_DIR$/www/views/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/js/goradio/routes.js" afterPath="$PROJECT_DIR$/www/static/js/goradio/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goradio.iws" />
@@ -72,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.323043" vertical-offset="123" max-vertical-offset="1184">
+            <state vertical-scroll-proportion="-11.72" vertical-offset="123" max-vertical-offset="1184">
               <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding />
             </state>
@@ -122,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goradio.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="goradio.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/goradio.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.357143" vertical-offset="678" max-vertical-offset="3024">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.63338786" vertical-offset="2413" max-vertical-offset="3040">
+              <caret line="175" column="23" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -165,8 +125,8 @@
       <file leaf-file-name="NavController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/static/js/goradio/shared/NavController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -208,9 +168,9 @@
         <option value="$PROJECT_DIR$/www/views/register.html" />
         <option value="$PROJECT_DIR$/www/static/js/goradio/register/RegisterController.js" />
         <option value="$PROJECT_DIR$/www/views/dashboard.html" />
-        <option value="$PROJECT_DIR$/sass/goradio.sass" />
         <option value="$PROJECT_DIR$/www/static/js/goradio/shared/NavController.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/sass/goradio.sass" />
       </list>
     </option>
   </component>
@@ -811,7 +771,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2466181" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2466181" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1183,22 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/goradio.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.357143" vertical-offset="678" max-vertical-offset="3024">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/static/js/goradio/shared/NavController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/views/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.68" vertical-offset="0" max-vertical-offset="352">
@@ -1207,10 +1151,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/static/js/goradio/shared/NavController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.323043" vertical-offset="123" max-vertical-offset="1184">
+        <state vertical-scroll-proportion="-11.72" vertical-offset="123" max-vertical-offset="1184">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/goradio.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63338786" vertical-offset="2413" max-vertical-offset="3040">
+          <caret line="175" column="23" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
           <folding />
         </state>
       </provider>
