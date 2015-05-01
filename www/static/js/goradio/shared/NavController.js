@@ -8,7 +8,8 @@
             $modal.open({
                 templateUrl: 'views/login.html',
                 controller: 'LoginController',
-                controllerAs: 'login'
+                controllerAs: 'login',
+                size: 'sm'
             });
         };
 

@@ -1,7 +1,14 @@
 (function () {
-    function DashboardController() {
+    function DashboardController($scope, UserService) {
         var dashboard = this;
-        console.log('dashboard init');
+
+        $scope.$watch(UserService.getUser,
+        function (newVal) {
+            if (newVal) {
+                console.log(newVal);
+                dashboard.user = newVal;
+            }
+        });
 
         dashboard.pageName = "Dashboard";
 
