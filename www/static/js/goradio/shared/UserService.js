@@ -20,6 +20,10 @@
             return UserService.user;
         };
 
+        UserService.logout = function () {
+            UserService.user = null;
+        };
+
         UserService.register = function (data) {
             return call('/users').post(data).$promise;
         };

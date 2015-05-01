@@ -1,5 +1,5 @@
 (function(){
-    function RegisterController($scope, $location, UserService) {
+    function RegisterController($modal, $scope, $location, $modalInstance, UserService) {
         var register = this;
         register.createUser = function () {
             if (register.username && register.password && register.password === register.passwordCheck) {
@@ -17,12 +17,18 @@
         };
 
         register.goLogin = function ()  {
-            $location.path('/login');
+            $modalInstance.close();
+            $modal.open({
+                templateUrl: 'views/login.html',
+                controller: 'LoginController',
+                controllerAs: 'login'
+            });
         };
 
         $scope.$watch(UserService.getUser, function (newData) {
             if (newData) {
                 $location.path('/dashboard');
+                $modalInstance.close();
             }
         });
     }

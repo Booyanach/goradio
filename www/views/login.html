@@ -1,16 +1,16 @@
 <div class="login-holder">
-    <h2>Login</h2>
-    <label>
-        Username:
-        <input type="text" name="username" id="username" ng-model="login.username"/>
-    </label>
-    <label>
-        Password:
-        <input type="password" name="password" id="password" ng-model="login.password"/>
-    </label>
-    <label>
-        <input type="button" value="login" ng-click="login.doLogin()"/>
-    </label>
+    <div class="modal-title">Login</div>
+    <div class="input-group">
+        <span class="input-group-addon">Username:</span>
+        <input type="text" name="username" class="form-control" id="username"
+               ng-model="login.username"/>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">Password:</span>
+        <input type="password" name="password" class="form-control" id="password"
+               ng-model="login.password"/>
+    </div>
+    <button type="button" class="btn btn-lg btn-primary" ng-click="login.doLogin()">Login</button>
 </div>
 <div>
     <label>Not registered yet? Why don't you <a ng-click="login.goRegister()">Register</a>?</label>
