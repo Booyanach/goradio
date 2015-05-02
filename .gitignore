@@ -1,1 +1,12 @@
 node_modules/
+.idea/codeStyleSettings.xml
+.idea/encodings.xml
+.idea/goradio.iml
+.idea/jsLibraryMappings.xml
+.idea/libraries
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes
+.idea/vcs.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
