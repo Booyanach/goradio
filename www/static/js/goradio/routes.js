@@ -1,24 +1,24 @@
 (function () {
     goradio.app.config(function ($stateProvider, $locationProvider) {
         $stateProvider
-            .state('dashboard', {
-                url: '/dashboard',
-                templateUrl: 'views/dashboard.html',
-                controller: 'DashboardController',
-                controllerAs: 'dashboard'
-            })
-            .state('index', {
-                url: '/',
-                templateUrl: 'views/login.html',
-                controller: 'LoginController',
-                controllerAs: 'login'
-            })
-            .state('register', {
-               url: '/register',
-                templateUrl: 'views/register.html',
-                controller: 'RegisterController',
-                controllerAs: 'register'
-            });
+        .state('dashboard', {
+            url: '/dashboard',
+            templateUrl: 'views/dashboard.html',
+            controller: 'DashboardController',
+            controllerAs: 'dashboard'
+        })
+        .state('register', {
+           url: '/register',
+            templateUrl: 'views/register.html',
+            controller: 'RegisterController',
+            controllerAs: 'register'
+        })
+        .state('start', {
+            url: '/',
+            templateUrl: 'views/start.html',
+            controller: 'StartController',
+            controllerAs: 'start'
+        });
 
         $locationProvider.html5Mode({
             enabled: true,

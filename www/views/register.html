@@ -1,20 +1,23 @@
 <div class="login-holder">
     <h2>Register</h2>
-    <label>
-        Username:
-        <input type="text" name="username" id="username" ng-model="register.username"/>
-    </label>
-    <label>
-        Password:
-        <input type="password" name="password" id="password" ng-model="register.password"/>
-    </label>
-    <label>
-        Repeat:
-        <input type="password" name="password" id="passwordCheck" ng-model="register.passwordCheck"/>
-    </label>
-    <label>
-        <input type="button" value="Register" ng-click="register.createUser()"/>
-    </label>
+    <div class="input-group">
+        <span class="input-group-addon">Username:</span>
+        <input type="text" name="username" class="form-control" id="username"
+               ng-model="register.username"/>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">Password:</span>
+        <input type="password" name="password" class="form-control" id="password"
+               ng-model="register.password"/>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">Repeat:</span>
+        <input type="password" name="password" class="form-control" id="passwordCheck"
+               ng-model="register.passwordCheck"/>
+    </div>
+    <button type="button" class="btn btn-lg btn-primary" ng-click="register.createUser()">
+        Register
+    </button>
 </div>
 <div>
     <label>Already have an account? <a ng-click="register.goLogin()">Login here</a>!</label>
